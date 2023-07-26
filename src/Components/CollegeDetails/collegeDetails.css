@@ -1,0 +1,13 @@
+a{
+    color: #0D1282;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+li a:hover{
+    color: #4e56f7;
+}
+.college_details{
+    text-decoration: underline;
+}

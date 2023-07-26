@@ -1,0 +1,90 @@
+.home{
+    padding: 100px 0;
+}
+img{
+    width: 92.5vw;
+    height: 70vh;
+    border-radius: 20px;
+}
+#carouselExampleCaptions{
+    padding: 15px 50px;
+    display: flex;
+    justify-content: center;
+}
+.carousel-caption {
+    color: #0D1282;
+}
+
+@media screen and (max-width:798px) {
+    .home{
+        padding: 10px 0;
+    }
+    #carouselExampleCaptions{
+        padding: 10px;
+    }
+    img{
+        width: 95vw;
+        height: 230px;
+    }
+}
+.slide{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.row{
+    padding: 0;
+    margin: 0;
+}
+.notice{
+    height: 300px;
+}
+.notice_board{
+    height: 100%;
+}
+main{
+    height: 100%;
+    margin: 0;
+}
+.form{
+    width: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.form-signin {
+  width: 100%;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom: 0.5px solid #0D1282;
+}
+
+.form-signin input[type="email"]:focus, .form-signin input[type="password"]:focus{
+    border-bottom: 2px solid #0D1282;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom: 0.5px solid #0D1282;
+}
+.form{
+    border: 0.5px solid #0D1282;
+    padding: 20px;
+}
